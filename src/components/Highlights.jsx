@@ -1,6 +1,7 @@
 import img1 from "../assets/mixing.jpg"
 import img2 from "../assets/mastering.jpg"
 import img3 from "../assets/recording.jpg"
+import img4 from "../assets/sound.jpg"
 
 import { RxMixerHorizontal, RxMixerVertical } from "react-icons/rx"
 import { MdPiano } from "react-icons/md"
@@ -19,7 +20,7 @@ export default function Highlights() {
                                 <RxMixerHorizontal className="text-brand text-2xl" />
                                 <h1 className="text-xl text-gray-50 font-bold">Mixing</h1>
                             </div>
-                            <p className="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
+                            <p className="text-sm text-gray-400 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
                         </div>
                     </div>
                     <div className='bg-contrast'>
@@ -31,7 +32,7 @@ export default function Highlights() {
                                 <RxMixerVertical className="text-brand text-2xl" />
                                 <h1 className="text-xl text-gray-50 font-bold">Mastering</h1>
                             </div>
-                            <p className="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
+                            <p className="text-sm text-gray-400 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
                         </div>
                     </div>
                     <div className='bg-contrast'>
@@ -43,19 +44,19 @@ export default function Highlights() {
                                 <MdPiano className="text-brand text-2xl" />
                                 <h1 className="text-xl text-gray-50 font-bold">Recording</h1>
                             </div>
-                            <p className="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
+                            <p className="text-sm text-gray-400 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
                         </div>
                     </div>
                     <div className='bg-contrast'>
                         <div className="h-[150px]">
-                            <img src={img3} alt="" className="h-[150px] w-full object-cover" />
+                            <img src={img4} alt="" className="h-[150px] w-full object-cover" />
                         </div>
                         <div className="p-5">
                             <div className="flex items-center gap-2">
                                 <MdPiano className="text-brand text-2xl" />
-                                <h1 className="text-xl text-gray-50 font-bold">Recording</h1>
+                                <h1 className="text-xl text-gray-50 font-bold">Sound Design</h1>
                             </div>
-                            <p className="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
+                            <p className="text-sm text-gray-400 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
                         </div>
                     </div>
                 </div>
