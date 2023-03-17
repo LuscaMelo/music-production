@@ -2,6 +2,8 @@ import { useState } from "react"
 import { HiMenuAlt2 } from "react-icons/hi"
 import { IoCloseSharp } from "react-icons/io5"
 
+import { useEffect } from "react"
+
 
 export default function Navbar() {
     const [nav, setNav] = useState(false)
@@ -9,6 +11,10 @@ export default function Navbar() {
     const handleNav = () => {
         setNav(!nav)
     }
+
+    useEffect(() => {
+        nav ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto"
+    }, []);
 
     return (
         <div className="flex z-40">

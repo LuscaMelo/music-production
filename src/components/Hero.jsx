@@ -2,7 +2,7 @@ import { BsArrowRightShort } from "react-icons/bs"
 
 export default function Hero() {
     return (
-        <div className="h-[70vh] w-full" id="hero">
+        <div className="h-[85vh] w-full" id="hero">
             <div className="container mx-auto flex flex-col justify-center items-center h-[100%] text-center">
                 <h1 className="text-gray-50 text-5xl lg:text-6xl font-bold">Music production from scratch<span className="text-brand-dark">.</span> </h1>
                 <div className="flex gap-2 mt-4">

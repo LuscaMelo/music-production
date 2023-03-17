@@ -8,6 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    margin-bottom: 8px;
+}
+
 .container {
     padding: 1.2rem;
 }

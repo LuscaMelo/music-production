@@ -8,7 +8,7 @@ import { MdPiano } from "react-icons/md"
 
 export default function Highlights() {
     return (
-        <div className="bg-dark flex items-center">
+        <div className="bg-dark flex items-center pb-10 lg:py-14">
             <div className="container mx-auto">
                 <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                     <div className='bg-contrast'>
@@ -37,7 +37,7 @@ export default function Highlights() {
                     </div>
                     <div className='bg-contrast'>
                         <div className="h-[150px]">
-                            <img src={img3} alt="" className="h-[150px] w-full object-cover" />
+                            <img src={img3} alt="" className="h-[150px] w-full object-cover " />
                         </div>
                         <div className="p-5">
                             <div className="flex items-center gap-2">
