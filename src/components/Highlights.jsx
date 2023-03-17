@@ -8,9 +8,9 @@ import { MdPiano } from "react-icons/md"
 
 export default function Highlights() {
     return (
-        <div className="bg-dark flex items-center pb-10 lg:py-14">
-            <div className="container mx-auto">
-                <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+        <div className="flex items-center ">
+            <div className=" p-0 mx-auto">
+                <div className='grid gap-5 grid-cols-1 md:grid-cols-2'>
                     <div className='bg-contrast'>
                         <div className="h-[150px]">
                             <img src={img1} alt="" className="h-[150px] w-full object-cover" />
@@ -20,7 +20,7 @@ export default function Highlights() {
                                 <RxMixerHorizontal className="text-brand text-2xl" />
                                 <h1 className="text-xl text-gray-50 font-bold">Mixing</h1>
                             </div>
-                            <p className="text-sm text-gray-400 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
+                            <p className="text-sm text-gray-400 pt-3">At the simplest level, mixing is the process of balancing, treating and combining multitrack material into a multichannel format. Oftentimes, that format is two-channel stereo.</p>
                         </div>
                     </div>
                     <div className='bg-contrast'>
@@ -32,7 +32,7 @@ export default function Highlights() {
                                 <RxMixerVertical className="text-brand text-2xl" />
                                 <h1 className="text-xl text-gray-50 font-bold">Mastering</h1>
                             </div>
-                            <p className="text-sm text-gray-400 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
+                            <p className="text-sm text-gray-400 pt-3">Mastering happens after the mixing process. This is the final step to creating a master, which is then used to generate compact discs, vinyl cutting masters and digital files for streaming or download.</p>
                         </div>
                     </div>
                     <div className='bg-contrast'>
@@ -44,7 +44,7 @@ export default function Highlights() {
                                 <MdPiano className="text-brand text-2xl" />
                                 <h1 className="text-xl text-gray-50 font-bold">Recording</h1>
                             </div>
-                            <p className="text-sm text-gray-400 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
+                            <p className="text-sm text-gray-400 pt-3">Music recording, physical record of a musical performance that can then be played back, or reproduced.</p>
                         </div>
                     </div>
                     <div className='bg-contrast'>
@@ -56,7 +56,7 @@ export default function Highlights() {
                                 <MdPiano className="text-brand text-2xl" />
                                 <h1 className="text-xl text-gray-50 font-bold">Sound Design</h1>
                             </div>
-                            <p className="text-sm text-gray-400 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae adipisci nisi.</p>
+                            <p className="text-sm text-gray-400 pt-3">Sound design is the craft of creating an overall sonic palette for a piece of art, especially media like film, TV shows, live theater, commercials, and podcasts.</p>
                         </div>
                     </div>
                 </div>
