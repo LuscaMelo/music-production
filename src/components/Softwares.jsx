@@ -8,7 +8,7 @@ export const Softwares = () => {
                     <div>
                         <div className='pb-8'>
                             <h2 className='text-4xl font-bold'>Digital Audio Workstation</h2>
-                            <h3 className='text-xl text-brand'>the best audio editors on the market</h3>
+                            <h3 className='text-xl text-brand'>The best audio editors on the market</h3>
                         </div>
                         <div className='text-gray-400'>
                             <p>A digital audio workstation (DAW) is a piece of software designed specifically to aid in the production of music recordings, film and television audio, and any other type of audio work that requires signal processing and mixing.</p>
