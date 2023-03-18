@@ -10,7 +10,7 @@ module.exports = {
         'hero-pattern': "url('./src/assets/hero.jpg')",
       },
       colors: {
-        'brand': '#721982',
+        'brand': '#A116A1',
         'brand-dark': '#470576',
         'dark': '#010101',
         'contrast': '#11111172'
