@@ -5,15 +5,17 @@ import img4 from "../assets/sound.jpg"
 
 import { RxMixerHorizontal, RxMixerVertical } from "react-icons/rx"
 import { MdPiano } from "react-icons/md"
+import { AiTwotoneAudio } from "react-icons/ai"
 
 export default function Highlights() {
     return (
-        <div className="flex items-center ">
-            <div className=" p-0 mx-auto">
-                <div className='grid gap-5 grid-cols-1 md:grid-cols-2'>
-                    <div className='bg-contrast'>
-                        <div className="h-[150px]">
-                            <img src={img1} alt="" className="h-[150px] w-full object-cover" />
+        <div className='bg-dark text-slate-50'>
+            <div className="container max-w-[1200px] mx-auto">
+                <h2 className='text-4xl font-bold pb-10'>In this course, you will learn<span className="text-brand">:</span></h2>
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-5 max-w-[1200px] mx-auto">
+                    <div className='bg-contrast rounded-md overflow-hidden md:col-span-5'>
+                        <div className="h-[180px]">
+                            <img src={img1} alt="" className="h-[180px] w-full object-cover hover:scale-105 duration-300" />
                         </div>
                         <div className="p-5">
                             <div className="flex items-center gap-2">
@@ -23,9 +25,9 @@ export default function Highlights() {
                             <p className="text-sm text-gray-400 pt-3">At the simplest level, mixing is the process of balancing, treating and combining multitrack material into a multichannel format. Oftentimes, that format is two-channel stereo.</p>
                         </div>
                     </div>
-                    <div className='bg-contrast'>
-                        <div className="h-[150px]">
-                            <img src={img2} alt="" className="h-[150px] w-full object-cover" />
+                    <div className='bg-contrast rounded-md overflow-hidden md:col-span-7'>
+                        <div className="h-[180px]">
+                            <img src={img2} alt="" className="h-[180px] w-full object-cover hover:scale-105 duration-300" />
                         </div>
                         <div className="p-5">
                             <div className="flex items-center gap-2">
@@ -35,21 +37,21 @@ export default function Highlights() {
                             <p className="text-sm text-gray-400 pt-3">Mastering happens after the mixing process. This is the final step to creating a master, which is then used to generate compact discs, vinyl cutting masters and digital files for streaming or download.</p>
                         </div>
                     </div>
-                    <div className='bg-contrast'>
-                        <div className="h-[150px]">
-                            <img src={img3} alt="" className="h-[150px] w-full object-cover " />
+                    <div className='bg-contrast rounded-md overflow-hidden md:col-span-7'>
+                        <div className="h-[180px]">
+                            <img src={img3} alt="" className="h-[180px] w-full object-cover hover:scale-105 duration-300" />
                         </div>
                         <div className="p-5">
                             <div className="flex items-center gap-2">
-                                <MdPiano className="text-brand text-2xl" />
+                                <AiTwotoneAudio className="text-brand text-2xl" />
                                 <h1 className="text-xl text-gray-50 font-bold">Recording</h1>
                             </div>
                             <p className="text-sm text-gray-400 pt-3">Music recording, physical record of a musical performance that can then be played back, or reproduced.</p>
                         </div>
                     </div>
-                    <div className='bg-contrast'>
-                        <div className="h-[150px]">
-                            <img src={img4} alt="" className="h-[150px] w-full object-cover" />
+                    <div className='bg-contrast rounded-md overflow-hidden md:col-span-5'>
+                        <div className="h-[180px]">
+                            <img src={img4} alt="" className="h-[180px] w-full object-cover hover:scale-105 duration-300" />
                         </div>
                         <div className="p-5">
                             <div className="flex items-center gap-2">
@@ -61,6 +63,6 @@ export default function Highlights() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

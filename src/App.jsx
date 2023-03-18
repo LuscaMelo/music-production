@@ -1,6 +1,8 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import { SeeMore } from "./components/SeeMore"
+import Highlights from "./components/Highlights"
+import { Softwares } from "./components/Softwares"
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <SeeMore />
+      <Highlights />
+      <Softwares />
     </div>
   )
 }
