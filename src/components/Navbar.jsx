@@ -28,12 +28,17 @@ export default function Navbar() {
 
             {/** Menu **/}
             <div className={nav ? "bg-zinc-900 fixed top-0 left-0 w-[300px] h-full shadow-lg duration-500" : "absolute top-0 left-0 w-[300px] h-full ml-[-300px] duration-500"}>
-                <div className="">
+                <div className="h-full">
                     <div className={nav ? "absolute top-6 right-[-45px]" : ""} >
                         <IoCloseSharp className="text-4xl cursor-pointer text-slate-100" onClick={handleNav} />
                     </div>
-                    <div className="h-full w-full ">
-
+                    <div className="h-full w-full">
+                        <ul className="flex flex-col gap-6 h-full items-center justify-center text-2xl font-bold text-gray-400">
+                            <li className="cursor-pointer text-brand">Home</li>
+                            <li className="cursor-pointer hover:text-white">See More</li>
+                            <li className="cursor-pointer hover:text-white">About</li>
+                            <li className="cursor-pointer hover:text-white">Learn</li>
+                        </ul>
                     </div>
                 </div>
             </div>

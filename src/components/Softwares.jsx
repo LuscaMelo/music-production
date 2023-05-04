@@ -20,7 +20,7 @@ export const Softwares = () => {
                             <p>They provide the ability to record many tracks at once, bounce mono, stereo, and surround sound audio files, and edit waveforms. They let you cut, copy, paste, arrange, and loop audio. You can use audio units like VST plugins.</p>
                             <p>You can capture or produce MIDI data and reproduce sounds using synthesizers, samples, and one-shots. And of course, you can do signal processing, volume balancing, and final mixdowns. If you need most of these capabilities, then you need a top DAW and not some rinky-dink software.</p>
                         </div>
-                        <img src={img} alt="" className="max-w-[300px] mx-auto" />
+                        <img src={img} alt="" className="max-w-[270px] mx-auto mb-8 mt-12" />
                     </div>
                 </div>
             </div>

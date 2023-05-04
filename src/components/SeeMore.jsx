@@ -16,7 +16,7 @@ export const SeeMore = () => {
                 </div>
                 <div>
                     <div className='text-gray-400'>
-                        <p>This course is for anyone who is still a beginner in their music career. It’s a one-stop tutorial to help get you started in the music production process.</p>
+                        <p className="mt-[-30px] md:mt-0">This course is for anyone who is still a beginner in their music career. It’s a one-stop tutorial to help get you started in the music production process.</p>
                         <div className='pb-8 text-slate-50 py-8'>
                             <h2 className='text-4xl font-bold'>The work of a Music Producer</h2>
                             <h3 className='text-xl text-brand'>Who is this professional</h3>
