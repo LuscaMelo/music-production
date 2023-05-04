@@ -13,7 +13,7 @@ export default function Highlights() {
             <div className="container max-w-[1200px] mx-auto">
                 <div className='pb-8'>
                     <h2 className='text-4xl font-bold'>Work processes</h2>
-                    <h3 className='text-xl text-brand'>Audio editing</h3>
+                    <h3 className='text-lg text-brand'>Audio editing</h3>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-5 max-w-[1200px] mx-auto">
                     <div className='bg-contrast rounded-md overflow-hidden md:col-span-5'>
