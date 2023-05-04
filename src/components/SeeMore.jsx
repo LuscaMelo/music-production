@@ -4,7 +4,7 @@ export const SeeMore = () => {
             <div className="container grid md:grid-cols-2 gap-8 mx-auto max-w-[1200px]">
                 <div>
                     <div className='pb-8'>
-                        <h2 className='text-4xl font-bold'>What is<br className="md:hidden" /> Music Production?</h2>
+                        <h2 className='text-2xl md:text-3xl font-bold'>What is Music Production?</h2>
                         <h3 className='text-lg text-brand'>Learn the Basics</h3>
                     </div>
                     <div className='text-gray-400 text-sm'>
@@ -18,7 +18,7 @@ export const SeeMore = () => {
                     <div className='text-gray-400 text-sm'>
                         <p className="mt-[-30px] md:mt-0">This course is for anyone who is still a beginner in their music career. It’s a one-stop tutorial to help get you started in the music production process.</p>
                         <div className='pb-8 text-slate-50 py-8'>
-                            <h2 className='text-4xl font-bold'>The work of a Music Producer</h2>
+                            <h2 className='text-2xl md:text-3xl font-bold'>The work of a Music Producer</h2>
                             <h3 className='text-lg text-brand'>Who is this professional</h3>
                         </div>
                         <p>A producer brings together the various requirements of the music production process. They combine the necessary creative talent, resources, external stakeholders, and software to ensure that the music production process is streamlined and efficient.</p>
